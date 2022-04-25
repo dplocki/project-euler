@@ -7,6 +7,6 @@ new_file_number = last_file_number + 1
 new_file_name = f'p{new_file_number:04}.py'
 
 with open(new_file_name, "w") as new_file:
-    new_file.write(f'''# https://projecteuler.net/problem={new_file_number})
+    new_file.write(f'''# https://projecteuler.net/problem={new_file_number}
 
 ''')
