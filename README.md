@@ -1,2 +1,5 @@
-# projecteuler
-My solutions for Project Euler
+# Project Euler
+
+My solutions for [Project Euler](https://projecteuler.net/).
+
+Language: Python
