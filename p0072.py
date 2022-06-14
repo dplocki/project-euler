@@ -1,3 +1,5 @@
+# https://projecteuler.net/problem=71
+
 from typing import List
 
 def list_totients(limit: int) -> List[int]:
@@ -10,7 +12,7 @@ def list_totients(limit: int) -> List[int]:
 
 	return result
 
-def count_fractions(limit):
+def count_fractions(limit: int) -> int:
     return sum(list_totients(limit)) -1
 
 assert count_fractions(8) == 21
